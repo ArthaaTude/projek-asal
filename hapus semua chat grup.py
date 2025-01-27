@@ -14,7 +14,7 @@ async def clear_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
             print(f"Error deleting message {message_id}: {e}")
 
 if __name__ == "__main__":
-    TOKEN = "7869705949:AAEaM7AjFhCOuJiQ3GKo_ICjvKnSey6L6QQ"
+    TOKEN = ""
     application = Application.builder().token(TOKEN).build()
 
     # Menambahkan handler untuk perintah "/clear"
